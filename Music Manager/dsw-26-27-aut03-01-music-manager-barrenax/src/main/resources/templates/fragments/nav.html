@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<body>
+<nav th:fragment="menu" class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+  <div class="container">
+    <a class="navbar-brand" th:href="@{/}">Music Manager</a>
+    <div class="navbar-nav">
+      <a class="nav-link" th:href="@{/}">Inicio</a>
+      <a class="nav-link" th:href="@{/albums}">Discos</a>
+      <a class="nav-link" th:href="@{/artists}">Artistas</a>
+      <a class="nav-link" th:href="@{/login}">Login</a>
+    </div>
+  </div>
+</nav>
+</body>
+</html>
